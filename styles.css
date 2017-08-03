@@ -113,8 +113,42 @@ h1{
    li{
        width: 600px;
        padding-left: 17%;
+       padding-top: 4px;
+      
    }
    #del{
        margin-top: -8px;
    }
+}
+
+@media screen and (max-width: 376px) {
+    #todoForm{
+        margin-left: 27.6%;
+    }
+    #addNew{
+        margin-left: 40%;
+    }
+    li{
+        width:330px;
+        height: 30px;
+        padding-left: 30%;
+    }
+    #todoList{
+        margin-left: -4.5%;
+        margin-top: 6%;
+    }
+    #done{
+        height: 30px;
+    }
+    #del{
+        height: 30px;
+        margin-top: -2%;
+    }
+    /*#todoInput{
+        border: none;
+        border-bottom: 1px solid black;
+        background: snow;
+        border-radius: 0px;
+    }*/
+
 }
