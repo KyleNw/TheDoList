@@ -14,12 +14,12 @@
 
 
 var  recrodCount = 0;
-
+ 
 
 function addList(){
     recrodCount +=1;
     var text = $("#todoInput").val();
-    $("#todoList").append("<div id='count"+recrodCount+"'><input id='done' onclick='complete("+recrodCount+")' class='btn' type='button' value='Completed'><li id='list"+recrodCount+"' class='list'>"+ text + "<input class='btn' onclick='removeList("+recrodCount+")' type='button' value='delete' id='del'></li></div>");
+    $("#todoList").append("<div id='count"+recrodCount+"'><input id='done' onclick='complete("+recrodCount+")' class='btn' type='button' value='Complete'><li id='list"+recrodCount+"' class='list'>"+ text + "<input class='btn' onclick='removeList("+recrodCount+")' type='button' value='Delete' id='del'></li></div>");
     $("#todoInput").val("");
 }
 
@@ -40,7 +40,7 @@ $(function(){
             e.preventDefault();
             recrodCount +=1;
             var text = $("#todoInput").val();
-            $("#todoList").append("<div id='count"+recrodCount+"'><input id='done' onclick='complete("+recrodCount+")' class='btn' type='button' value='Completed'><li id='list"+recrodCount+"' class='list'>"+ text + "<input class='btn' onclick='removeList("+recrodCount+")' type='button' value='delete' id='del'></li></div>");
+            $("#todoList").append("<div id='count"+recrodCount+"'><input id='done' onclick='complete("+recrodCount+")' class='btn' type='button' value='Complete'><li id='list"+recrodCount+"' class='list'>"+ text + "<input class='btn' onclick='removeList("+recrodCount+")' type='button' value='Delete' id='del'></li></div>");
             $("#todoInput").val("");
       }
       
