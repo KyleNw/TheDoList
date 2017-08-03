@@ -22,7 +22,7 @@ li{
     border-radius: 5px;
     padding-left: 10%;
     padding-top:8px;
-    margin-top: 1%;
+    /*margin-top: 1%;*/
     /*opacity: .5;*/
     font-family: 'Roboto', sans-serif;
 }
@@ -49,6 +49,7 @@ h1{
     height: 50px;
     background-color: #337ab7;
     color: white;
+    box-shadow: 5px 5px 8px grey;
 }
 #addNew:hover{
     background-color: #2e6da4;
@@ -88,7 +89,7 @@ h1{
   background-color: #f0ad4e;
   color: white;
   height:40px;
-  margin-top: -.7%;
+  margin-top: -1%;
 }
 #del:hover{
     background-color: #ec971f;
@@ -103,5 +104,17 @@ h1{
    }
    #addNew{
        margin-left: 44%;
+       box-shadow: 5px 5px 8px grey;
+   }
+   #todoList{
+       margin-left: 5%;
+       margin-top: 3%;
+   }
+   li{
+       width: 600px;
+       padding-left: 17%;
+   }
+   #del{
+       margin-top: -8px;
    }
 }

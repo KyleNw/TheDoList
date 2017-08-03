@@ -24,7 +24,7 @@ function addList(){
 }
 
 function removeList(e){
-    $("#count" + e).hide();
+    $("#count" + e).remove();
 }
 
 function complete(e){
