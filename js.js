@@ -45,6 +45,10 @@ $(function(){
       }
       
     });
+
+    $( "#destroy" ).click(function() {
+    location.reload();
+});
       
 
     
